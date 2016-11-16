@@ -22,6 +22,7 @@ namespace UnityTest
         public static int returnCodeTestsFailed = 2;
         public static int returnCodeRunError = 3;
 
+        [MenuItem("Build/Windows")]
         public static void RunIntegrationTests()
         {
             var targetPlatform = GetTargetPlatform();

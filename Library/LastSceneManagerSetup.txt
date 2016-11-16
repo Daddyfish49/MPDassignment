@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Level_01.unity
+- path: Assets/UnityTestTools/Examples/IntegrationTestsFrameworkExamples/ExampleIntegrationTests.unity
   isLoaded: 1
   isActive: 1

@@ -6,4 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level_01.unity
+    path: Assets/UnityTestTools/Examples/IntegrationTestsFrameworkExamples/ExampleIntegrationTests.unity
+  - enabled: 1
+    path: Assets/UnityTestTools/Examples/IntegrationTestsFrameworkExamples/AngryBotsTests/ExampleABTests.unity

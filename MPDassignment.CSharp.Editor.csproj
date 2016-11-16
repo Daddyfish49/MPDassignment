@@ -133,11 +133,11 @@
     <Reference Include="Mono.Cecil">
       <HintPath>Assets\UnityTestTools\IntegrationTestsFramework\Libs\Mono.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="NSubstitute">
-      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil.Mdb">
       <HintPath>Assets\UnityTestTools\IntegrationTestsFramework\Libs\Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstitute">
+      <HintPath>Assets\UnityTestTools\UnitTesting\Editor\NSubstitute\NSubstitute.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-UnityScript">
       <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
@@ -150,6 +150,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\BuildEditor.cs" />
     <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionComponentEditor.cs" />
     <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionExplorerWindow.cs" />
     <Compile Include="Assets\UnityTestTools\Assertions\Editor\AssertionListRenderer.cs" />
