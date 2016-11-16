@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/UnityTestTools/Examples/AssertionExample/AssertionsExample.unity
+  isLoaded: 1
+  isActive: 1
